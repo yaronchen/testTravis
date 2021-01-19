@@ -1,0 +1,23 @@
+{
+  "name": "testtravis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node aps.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaronchen/testTravis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaronchen/testTravis/issues"
+  },
+  "homepage": "https://github.com/yaronchen/testTravis#readme",
+  "dependencies": {
+    "jsonschema": "^1.4.0"
+  }
+}
