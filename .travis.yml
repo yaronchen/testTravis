@@ -1,11 +1,10 @@
 language: generic
 sudo: required
 services:
-  -docker
+  - docker
 
 before_install:
-  -docker build -t oernbro/docker-test -f Dockerfile.dev .
+  - docker build -t oernbro/docker-test -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true oernbro/docker-test npm run test
-  
+  - docker run -e CI=true oernbro/docker-test npm test
