@@ -20,7 +20,7 @@ jobs:
         DOCKER_PASS: ${{ secrets.DOCKER_PASS }}  
         DOCKER_USER: ${{ secrets.DOCKER_USER }}  
       run: |
-        docker login -u $DOCKER_USER -p $DOCKER_PASS
+        docker login -u $DOCKER_USER -p $DOCKER_PASS 
     - name: docker build app
       run: |
         docker build -t test_travis:1.0.0 .
