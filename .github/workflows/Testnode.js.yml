@@ -17,4 +17,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: docker build app
       run: |
-        docker build -t testTravis:1.0.0
+        docker build -t test_travis:1.0.0
