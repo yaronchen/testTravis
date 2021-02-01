@@ -23,9 +23,9 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASS 
     - name: docker build app
       run: |
-        docker build -t chenyaron/github_testing:1.0.0 .
+        docker build -t chenyaron/github_testing:control1_2_3 .
     - name : docker push
       run: |
-        docker push chenyaron/github_testing:1.0.0
+        docker push chenyaron/github_testing:control1_2_3
         
 
